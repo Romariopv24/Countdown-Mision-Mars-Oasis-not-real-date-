@@ -49,18 +49,25 @@ const $days = document.getElementById('days'),
   
      images = ['assets/mars.jpg', 'assets/Mars2.png', 'assets/rocket.jpeg']
       
-     const imgCount = images.length
+     const imgCount = images.length;
    
     const number = Math.floor(Math.random() * imgCount);
+    
    
     window.onload = function() {
       
       randomChange.style.backgroundImage = 'url('+images[number]+')'
       randomChange.style.backgroundSize = 'cover';
       randomChange.style.backgroundRepeat = 'no-repeat';
-
+      randomChange.style.transform = 'translateY(0)';
+      
     }
-  
-  
+
+
+
+    
+   
+
+    
      
     

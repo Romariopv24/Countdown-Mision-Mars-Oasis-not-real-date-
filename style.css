@@ -17,9 +17,6 @@ body  {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   /* background-image: url(./assets/mars.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;*/
 }
 
 .countdown {
@@ -75,9 +72,10 @@ span {
     place-items: center;
     transform: translateY(-100%);
     transition: ease-in-out 0.5s;
-   /* background-image: url(./assets/mars.jpg);
+    background-image: url(./assets/mars.jpg);
     background-size: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
+   
 }
 
 .final-sms h2 {
@@ -87,7 +85,7 @@ span {
     font-family: 'Heebo', sans-serif; 
 }
 
-/*@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
     .final-sms {
         position: absolute;
         left: 0;
@@ -96,15 +94,20 @@ span {
         bottom: 0;
         display: grid;
         place-items: center;
-        transform: translate(-200%);
-        transition: ease-in-out 0.5s;
-    }
-
-    .container{
-        min-width: 320px;
-       /* background-image: url(./assets/mars.jpg);
+        transform: translate(-100%);
+       transition: ease-in-out 0.5s;
+       background-image: url(./assets/mars.jpg);
+       background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .final-sms h2 {
+        text-align: center;
+        font-size: 80px;
+        color: #b5bdcd ; 
+        font-family: 'Heebo', sans-serif; 
+    }
+
     
-}*/
+}
