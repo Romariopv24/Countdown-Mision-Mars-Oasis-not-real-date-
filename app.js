@@ -44,7 +44,7 @@ const $days = document.getElementById('days'),
      ScrollReveal().reveal('.final-sms', {delay: 500})
 
 
-     //Random Background
+     //Cambiar imagenes de fondo aletoriamente
      const randomChange = document.getElementById('randomChange'),
   
      images = ['assets/mars.jpg', 'assets/Mars2.png', 'assets/rocket.jpeg']
@@ -59,6 +59,8 @@ const $days = document.getElementById('days'),
       randomChange.style.backgroundImage = 'url('+images[number]+')'
       randomChange.style.backgroundSize = 'cover';
       randomChange.style.backgroundRepeat = 'no-repeat';
+
+      //cuando llegue a 0 desaparezca el contador
       randomChange.style.transform = 'translateY(0)';
       
     }
